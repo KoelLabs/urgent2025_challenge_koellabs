@@ -16,7 +16,7 @@ from rir_utils import estimate_early_rir
 from torchaudio.io import AudioEffector, CodecConfig
 from tqdm.contrib.concurrent import process_map
 
-ffmpeg = "/path/to/ffmpeg"
+ffmpeg = "/home/arunasrivastava/miniconda3/envs/urgent2025/bin/ffmpeg"
 
 
 def buildFFmpegCommand(params):
